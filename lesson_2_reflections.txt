@@ -23,3 +23,10 @@ the repository.
 The staging area allows the user to decide which files to track.  He or she could
 chose one two three files or all files to track. That allows for more flexibility in 
 managing the repository.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+I can execute $git diff --staged.  Doing this I can determine if there are 
+big enough changes to commit per logical change.
+
+
