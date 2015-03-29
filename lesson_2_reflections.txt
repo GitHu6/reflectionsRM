@@ -1,0 +1,12 @@
+What happens when you initialize a repository?  Why do you need to do it?
+
+The only thing of significance that happens is that it creates the .git folder which 
+holds all the meta data that is used to track files changes. You can delete a
+repository by simply deleting this file and preserving the rest of the files in the 
+folder.  You can also recreate this file again which creates the repository by
+simply issuing the: git init command.  
+
+But remember that if you do decide to delete the the .git folder all your version
+tracking of your files in that directory is gone.
+
+I forgot that you are also put on the "branch master."

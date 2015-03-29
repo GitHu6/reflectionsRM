@@ -1,0 +1,50 @@
+How did viewing diff between two versions of a file help you see the bug that
+was introduced?
+
+First of all it isolated only the lines that are different there by focussing the
+user to look at the few lines as opposed to looking and comparing every single line
+in the files.  This cuts down on time and is easier to isolate typos.
+
+How would having easy access to the entire history of a file nake you a more
+efficient programmer in the long tern?
+
+I would be able to debug by stepping back in the progression of the code to 
+isolate a problem that only manifested itself in the current code.  I would be
+able to confirm dependencies as well if I had access to the older versions
+of the code.  And for other developers they would be able to review the
+prior code which will better enable them to try to understand the logic
+of the application as written by the original person or team of coders.
+For the developer as a individual this would be a tremedous tool in his
+tool belt.
+
+What do you think are the pros and cons of manually choosing when you create
+a commit, like you do in Git, vs having the versions automatically saved, 
+Google docs does?
+
+The pros of doing it manually is that you have versioning control.  You 
+are able to determine the best time to commit thereby reducing the 
+number of commits you'd otherwise have to sift through.  It's not dumb
+versioning which Google has when it is automatic.  
+
+The con is that since it relies on the user he or she may forget to 
+commit and that in itself will put the whole versioning less efficient and
+riskier. What if the computer goes down data could be lost or corrupt.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+In coding you often have file dependencies so it is best to take a snap shot of
+all files, and for Google docs the typical use won't have file dependencies 
+because the typical user is not a coder.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I want to use it to understanding version control.  We use ClearTeam at work but I want to use another product that is growing in popularity.  It good to have this as part of my skillset.
+
+
+
+
+
+
+
+ 
