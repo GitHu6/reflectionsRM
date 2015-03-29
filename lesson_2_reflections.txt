@@ -10,3 +10,16 @@ But remember that if you do decide to delete the the .git folder all your versio
 tracking of your files in that directory is gone.
 
 I forgot that you are also put on the "branch master."
+
+How is the staging area different from the working directory and the repository? 
+What value do you think it offers?
+
+The staging area contains the files you have marked to be tracked, files that are
+tracked and modified and files that are marked resolved/merged.  The working
+directory in contrast contains all tracked and untracked files, and is where the 
+.git file is put when you execute the git init command. The .git file defines
+the repository.  
+
+The staging area allows the user to decide which files to track.  He or she could
+chose one two three files or all files to track. That allows for more flexibility in 
+managing the repository.
