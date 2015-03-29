@@ -30,3 +30,11 @@ I can execute $git diff --staged.  Doing this I can determine if there are
 big enough changes to commit per logical change.
 
 
+What are some situations when branches would be helpful in keeping your history 
+organized?  How would branches help?
+
+If you wanted to have two versions of a project instead of one and wanted to 
+track the changes for the two projects.  Branching helps you track the versioning
+of the two streams of development.  Branching also will work of the same physical
+files but allow you two virtual projects of developement streams.
+
