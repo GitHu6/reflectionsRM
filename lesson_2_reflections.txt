@@ -38,3 +38,10 @@ track the changes for the two projects.  Branching helps you track the versionin
 of the two streams of development.  Branching also will work of the same physical
 files but allow you two virtual projects of developement streams.
 
+How do the diagrams help you visualize the branch structure?
+
+It visually shows you a path between child commit to parent commit that the
+git log will list for you. This is the reachable line on a branch, it also illustrates
+the concept of a detached HEAD which means any commit that is not on the
+path is a commit that is detached from the branch thus unreachable by git log.
+It is still reachable if you copy down the commit id and cehck it out again but as far as git log is concerned it never existed.   
