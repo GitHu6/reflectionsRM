@@ -45,3 +45,10 @@ git log will list for you. This is the reachable line on a branch, it also illus
 the concept of a detached HEAD which means any commit that is not on the
 path is a commit that is detached from the branch thus unreachable by git log.
 It is still reachable if you copy down the commit id and cehck it out again but as far as git log is concerned it never existed.   
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+It is convenient and also it prevents you from committing code that may introduce error by 
+requiring you to review the code where it conflicts and resolve it. The con is that it will
+not test the actually code so syntactically may be correct but could be functionally wrong or
+could cause an error in execution of your code
