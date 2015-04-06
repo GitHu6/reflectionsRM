@@ -9,6 +9,12 @@ When I was on Github and created and committed a file I need to edit the file be
 I had to do this two times so I committed three times in total. I'd rather pull the changes
 down after the last commit rather than have Git automatically pull it from the remote.  
 
+Describe the difference between forks, clones, and branches. When would you use one instead of another?
 
+A fork is only done on Github and you use this if you want to clone from github repository directly to 
+your directory.  It keeps track of those who forked off of you and links back to the orginal.  Branch
+is when you start a new development stream from the master branch or any other branch.  A clone is a 
+complete copy of the repository including versions. You can clone from gitHub repo or from another
+local repo.  
 
 
