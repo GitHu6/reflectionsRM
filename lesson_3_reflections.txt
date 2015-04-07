@@ -15,6 +15,12 @@ A fork is only done on Github and you use this if you want to clone from github 
 your directory.  It keeps track of those who forked off of you and links back to the orginal.  Branch
 is when you start a new development stream from the master branch or any other branch.  A clone is a 
 complete copy of the repository including versions. You can clone from gitHub repo or from another
-local repo.  
+local repo.
+
+What is the benefit of having a copy of the last known state of the remote stored?
+
+It allows git to remind you that you need to update a remote with your new commits.
+
+  
 
 
